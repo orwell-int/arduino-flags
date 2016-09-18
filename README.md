@@ -9,7 +9,9 @@ Hardware prerequisites
 ----------------------
 
 Connect 24 WS2812b RGB leds in chain on digital pin 2.
+
 Protect the digital pin with a 220 - 470 Ohms resistor (between the pin and the first led).
+
 Connect an Arduino Uno to a computer/server-flag through a serial port.
 
 Checkout the code
@@ -27,7 +29,7 @@ Discover the serial address of your Arduino: plug it on your machine by serial, 
 ```
 ls /dev/tty*
 ```
-to find it address.
+to find its address.
 
 Send serial data on the arduino from your server, by using RGB int values (0 to 255) separated by
 a comma and ending with a new line.
